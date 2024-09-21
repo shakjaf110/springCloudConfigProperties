@@ -2,8 +2,8 @@ server:
   port: 0
 spring:
   application:
-    name: userServer
-    profile: "git-default"
+    name: accountServer
+    profile: git
 eureka:
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
